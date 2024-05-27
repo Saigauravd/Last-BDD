@@ -1,0 +1,87 @@
+[INFO ] 2024-05-24 17:54:47.002 [main] nopLoginstep -  Browser is opening
+[INFO ] 2024-05-24 17:54:52.357 [main] nopLoginstep -  User is on URL
+[INFO ] 2024-05-24 17:54:59.882 [main] nopLoginstep -  Browser is opening
+[INFO ] 2024-05-24 17:55:03.780 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 17:55:15.015 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 17:55:16.136 [main] nopLoginstep -  Browser is opening
+[INFO ] 2024-05-24 17:55:19.947 [main] nopLoginstep -  Browser is opening
+[INFO ] 2024-05-24 17:55:28.791 [main] nopLoginstep -  Browser is opening
+[INFO ] 2024-05-24 17:55:32.601 [main] nopLoginstep -  Browser is opening
+[INFO ] 2024-05-24 18:55:19.175 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 18:55:19.601 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 18:55:21.075 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 18:55:21.561 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 18:55:22.963 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 18:55:23.444 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 18:55:24.741 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 18:55:25.119 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 18:55:26.304 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 18:55:26.662 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 18:55:27.823 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 18:55:28.168 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 18:55:29.288 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 18:55:29.607 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 18:57:08.717 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 18:57:09.152 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 18:57:10.531 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 18:57:10.974 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 18:57:12.172 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 18:57:12.509 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 18:57:13.641 [main] nopLoginstep -  Browser is opening
+[INFO ] 2024-05-24 19:02:28.586 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:02:29.023 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:04:10.961 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:04:11.445 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:04:12.960 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:04:13.423 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:04:14.738 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:04:15.085 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:04:16.209 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:04:16.485 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:04:17.632 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:04:18.085 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:04:19.242 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:04:19.548 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:04:20.701 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:04:21.012 [main] nopLoginstep -  Test case is failed
+[WARN ] 2024-05-24 19:05:58.281 [main] nopLoginstep -  Test case is failed
+[WARN ] 2024-05-24 19:05:58.321 [main] nopLoginstep -  Test case is failed
+[WARN ] 2024-05-24 19:05:58.345 [main] nopLoginstep -  Test case is failed
+[WARN ] 2024-05-24 19:05:58.367 [main] nopLoginstep -  Test case is failed
+[WARN ] 2024-05-24 19:05:58.384 [main] nopLoginstep -  Test case is failed
+[WARN ] 2024-05-24 19:05:58.402 [main] nopLoginstep -  Test case is failed
+[WARN ] 2024-05-24 19:05:58.419 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:06:50.021 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:06:50.412 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:06:51.843 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:06:52.269 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:06:53.406 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:06:53.755 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:07:38.882 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:07:39.323 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:07:40.906 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:07:41.349 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:07:42.577 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:07:43.002 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:07:44.207 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:07:44.609 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:07:45.938 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:07:46.399 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:07:47.536 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:07:47.894 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:07:49.176 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:07:49.524 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:08:03.932 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:08:04.332 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:08:05.643 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:08:06.129 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:08:07.348 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:08:07.702 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:08:47.557 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:08:47.981 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:11:00.424 [main] nopLoginstep -  Browser is opening
+[WARN ] 2024-05-24 19:11:00.837 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:13:01.272 [main] nopLoginstep -  Browser is opening
+[INFO ] 2024-05-24 19:13:11.269 [main] nopLoginstep -  User is on URL
+[WARN ] 2024-05-24 19:13:15.063 [main] nopLoginstep -  Test case is failed
+[INFO ] 2024-05-24 19:13:16.540 [main] nopLoginstep -  Browser is opening
