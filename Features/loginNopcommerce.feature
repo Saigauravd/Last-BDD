@@ -1,20 +1,20 @@
 Feature: Login in to demo site
 
-Background:
+Background: repeated steps
 Given User is able open the browser
 When thw user enter the url "https://admin-demo.nopcommerce.com/login"
 And Enter the Username "admin@yourstore.com" and Password "admin"
 And click on login button
-Then The page title should be "Dashboard / nopCommerce administration"
 
 @sanity
 Scenario: Login with valid credentials
+Then The page title should be "Dashboard / nopCommerce administration"
 
 When User click on Log out button 
 Then The page title should be "Your store. Login"
 
 
-@sanity
+@XY
 Scenario: Create new Customer
 
 When The user click on Customer menu and click on customer click on Customer tab

@@ -33,9 +33,41 @@ public class Proper {
 				throw new RuntimeException("url not specified in config file.");
 
 		}
-		
-		
-		
+		public String Email()
+		{
+			String value = readconfig.getProperty("Email");
+			return value;
+		}
+		public String Passwordl()
+		{
+			String value = readconfig.getProperty("Password");
+			return value;
+		}
+		public String Firstname()
+		{
+			String value = readconfig.getProperty("Firstname");
+			return value;
+		}
+		public String Lastname()
+		{
+			String value = readconfig.getProperty("Lastname");
+			return value;
+		}
+		public String Companyname ()
+		{
+			String value = readconfig.getProperty("Companyname");
+			return value;
+		}
+		public String Newsletter()
+		{
+			String value = readconfig.getProperty("Newsletter");
+			return value;
+		}
+		public String Managerofvendor()
+		{
+			String value = readconfig.getProperty("Managerofvendor");
+			return value;
+		}
 	}
 
 
