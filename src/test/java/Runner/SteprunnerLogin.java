@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
 		features = ".//Features/",
 		glue = "stepDefinations",
 		monochrome = true,
-		dryRun  = false,	
+		dryRun  = true,	
 		plugin = {"pretty","html:target/cucmber-report/report_html.html"},
 		tags ="@regression or @sanity"
 
