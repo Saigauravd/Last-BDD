@@ -141,25 +141,20 @@ public class nopLoginstep extends BaseClass {
 	read.Lastname(), read.Newsletter(), read.Newsletter(), read.Managerofvendor());
 
 	}
+
+
 	@Then("New Customer will be Saved {string}")
-	public void new_customer_will_be_saved(String Expected1, String Expected2) {
+	public void new_customer_will_be_saved(String Expected) {
+    
+		
 		String actual = driver.findElement(By.tagName("body")).getText();
-		if (actual.contains(Expected1))
+		if (actual.contains(Expected))
 		{
 			Assert.assertTrue(true);
 			
 		}else {
 			Assert.assertTrue(false);
 					}
-		 // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@Then("New Customer will be Saved {string}")
-	public void new_customer_will_be_saved(String Expected) {
-    
-		
-
 	}
 
 }
