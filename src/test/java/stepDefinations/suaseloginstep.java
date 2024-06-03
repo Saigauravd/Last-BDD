@@ -2,8 +2,8 @@ package stepDefinations;
 
 import java.io.File;
 import java.io.IOException;
-import java.sql.DriverManager;
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -14,6 +14,7 @@ import org.openqa.selenium.io.FileHandler;
 import org.testng.Assert;
 
 import Page.sauseLogin;
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -84,6 +85,13 @@ public class suaseloginstep extends BaseClass{
 		Saul.PassW(Pass);
 	}
 
+	@When("User enter the Username  and Password")
+	public void user_enter_the_username_and_password(DataTable dataTable) {
+	  List< List<String>> user = dataTable.asLists();
+	  Saul.UserN(user.get(0).get(0));
+	  Saul.PassW(user.get(0).get(1));
+	  
+	}
 	@When("Click on Login button")
 	public void click_on_login_button() {
 		Saul.login();

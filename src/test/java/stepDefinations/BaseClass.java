@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 
 import Page.CreateCustomerNop;
 import Page.NopLogin;
+import Page.Searchinnop;
+
 import Page.sauseLogin;
 import utility.Proper;
 
@@ -20,6 +22,7 @@ public class BaseClass {
 	public sauseLogin Saul; 
 	public static  Logger log;
 	public Proper  read;
+	public Searchinnop search;
 	
 	public String generateEmailId()
 	{

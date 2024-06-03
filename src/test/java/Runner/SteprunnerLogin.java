@@ -13,7 +13,7 @@ import io.cucumber.testng.CucumberOptions;
 		monochrome = true,
 		dryRun  = false,	
 		plugin = {"pretty","html:target/cucmber-report/report_html.html"},
-		tags ="@XY"
+	tags ="@r1"
 
 		)
 

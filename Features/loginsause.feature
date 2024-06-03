@@ -18,3 +18,15 @@ Examples:
 |performance_glitch_user|secret_sauce|
 |error_user|secret_sauce|
 |visual_user|secret_sauce|
+
+@r1
+  Scenario: Login with data table cred
+  
+  Given User will open the browser and paste the URL "https://www.saucedemo.com/"
+  When User enter the Username  and Password 
+
+  |standard_user|secret_sauce|
+  And Click on Login button
+  Then Page title should be "Swag Labs"
+  When user click on Elipses and click on  logout button 
+  Then Page title should be "Swag Labs"

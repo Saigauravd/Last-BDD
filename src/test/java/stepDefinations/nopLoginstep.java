@@ -18,6 +18,7 @@ import org.testng.Assert;
 
 import Page.CreateCustomerNop;
 import Page.NopLogin;
+import Page.Searchinnop;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -155,6 +156,28 @@ public class nopLoginstep extends BaseClass {
 		}else {
 			Assert.assertTrue(false);
 					}
+	}
+	@When("Enter the email id")
+	public void enter_the_email_id() {
+ search = new Searchinnop(driver);
+ search.Emaail();
+	}
+	@When("click on search button")
+	public void click_on_search_button() {
+	   search.serachbtn();
+	}
+	@Then("email id will be appeared {string}")
+	public void email_id_will_be_appeared(String Expected) {
+	
+		if (search.search(Expected)==true)
+		{
+			Assert.assertTrue(true);
+		}else
+		{
+			Assert.assertFalse(true);
+		}
+		 
+		 
 	}
 
 }
