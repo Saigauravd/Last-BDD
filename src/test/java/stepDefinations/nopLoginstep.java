@@ -28,54 +28,7 @@ import utility.Proper;
 
 public class nopLoginstep extends BaseClass {
 
-	@Before
-	public void initBrowser()
-	{ read = new Proper();
-
-
-
-	String browser = read.getBrowser();
-	System.out.println(browser);
-	switch(browser.toLowerCase()) 
-	{
-	case "chrome":
-
 	
-			driver = new ChromeDriver();
-		break;
-
-	case "firefox":
-		
-			driver = new FirefoxDriver();
-		break;
-
-	case "Edge":
-			driver = new EdgeDriver();
-		break;
-
-	}
-
-
-	}
-
-	@After
-	public void teardown(Scenario sc )
-	{
-		if (sc.isFailed()== true)
-		{
-			String path = System.getProperty("user.dir")+"\\Screeenshot.png";
-			TakesScreenshot SS = (TakesScreenshot)driver;
-			File src = SS.getScreenshotAs(OutputType.FILE);
-			File des = new File(path);
-			try {
-				FileHandler.copy(src, des);
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-		driver.quit();
-	}
 	@Given("User is able open the browser")
 	public void user_is_able_open_the_browser() {
 		nopl = new NopLogin(driver);
